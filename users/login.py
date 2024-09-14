@@ -31,12 +31,12 @@ def create_access_token(data: dict):
 
 # the endpoint to get the token
 
-def get_token():
+def get_token(user_data):
 
 	# data to be signed using token
 	data = {
-		'info': 'secret information',
-		'from': 'GFG'
+		'mobile': user_data['mobile'],
+		'from': 'Uniqueity'
 	}
 	token = create_access_token(data=data)
 	return {'token': token}
