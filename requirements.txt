@@ -5,4 +5,4 @@ motor==3.5.1
 pydantic==2.8.2
 pydantic_core==2.20.1
 pymongo==4.8.0
-nspython==2.6.1
+python-jose==3.3.0
